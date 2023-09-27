@@ -1,0 +1,76 @@
+name: nbbang
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  getwidget: ^4.0.0
+
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/main.png
+    - assets/images/game_1.png
+    - assets/images/game_2.png
+    - assets/images/game_3.png
+    - assets/images/menu_back.png
+    - assets/images/menu_back1.png
+    - assets/images/menu_back2.png
+    - assets/images/main1_1100x1860.png
+    - assets/images/main1_1100x1860_1.png
+    - assets/images/main1_1100x1860_2.png
+    - assets/images/main2_1100x1860.png
+    - assets/images/main3_1100x1860.png
+    - assets/images/dice/1.png
+    - assets/images/dice/2.png
+    - assets/images/dice/3.png
+    - assets/images/dice/4.png
+    - assets/images/dice/5.png
+    - assets/images/dice/6.png
+    - assets/images/dice/7.png
+    - assets/images/dice/8.png
+    - assets/images/dice/9.png
+    - assets/images/dice/10.png
+    - assets/images/dice/11.png
+    - assets/images/dice/12.png
+    - assets/images/roulette/2.png
+    - assets/images/roulette/3.png
+    - assets/images/roulette/4.png
+    - assets/images/roulette/5.png
+    - assets/images/roulette/6.png
+    - assets/images/roulette/7.png
+    - assets/images/roulette/8.png
+  #   - images/a_dot_ham.jpeg
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
